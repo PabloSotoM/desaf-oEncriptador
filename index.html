@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPT.ando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ENCRIPT.ando</h1>
+    <div class="container">
+        <div class="column">
+            <label for="inputTexto">Ingresa tu texto:</label>
+            <textarea id="inputTexto">Ingresar únicamente minúsculas sin tildes ni caracteres especiales, por favor.</textarea>
+            <br><br>
+            <button id="btnEncriptar"disabled>Encriptar</button>
+            <button id="btnDesencriptar"disabled>Desencriptar</button>
+        </div>
+        <div class="column">
+            <label for="resultadoTexto">Resultado:</label>
+            <textarea id="resultadoTexto" readonly></textarea>
+            <br><br>
+            <button id="btnCopiar"disabled>Copiar</button>
+            <button id="btnLimpiar"disabled>Limpiar tablero</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        Desarrollado por Pablo Soto para curso Principiante en Programación G7 - ONE año 2024/ ALURA LATAM. 
+    </div>
+    <script src="sistema.js"></script>
+</body>
+</html>
