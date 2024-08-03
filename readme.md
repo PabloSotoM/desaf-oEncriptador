@@ -1,4 +1,4 @@
-<h1 align="center"> ENCRIPT  </h1>
+<h1 align="center"> ENCRIPT.</h1>
 
 
 <h2> Sistema encriptador-desencriptador para curso Principiante en programación
